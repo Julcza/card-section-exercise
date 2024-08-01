@@ -1,0 +1,151 @@
+
+/* typography */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+
+
+h1, p {
+    margin-top: 0;
+}
+
+
+h1 {
+    font-size: 35px;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+
+/* header section */
+
+header{
+    background-color: #ffe600;
+    text-align: center;
+    text-decoration: overline;
+}
+
+
+/*------------------------------------------------------------- */
+
+
+
+/* common  */
+
+header,
+section {
+    padding: 50px;
+    margin:0 auto;
+}
+
+
+.btn {
+    display: inline-block; 
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 12px 24px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+
+
+/* section 1  */
+
+
+.section-1  {
+    background: #000;
+    color: white;
+    margin: 0 auto;
+    
+}
+
+
+
+.heading-acc-col-1 {
+    color: #ffe600;
+
+}
+
+/* section 1 buttons  */
+
+.btn-yellow {
+    background:#ffe600;
+    color: black;
+ 
+
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    background:white;
+    color: black;
+}
+
+
+/* -------------------------------------------------- */
+
+/* section 2 */
+
+
+
+.section-2  {
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.heading-acc-col-2 {
+    color: #f88417;
+}
+
+/* section 2 buttons  */
+
+
+.btn-black {
+    color: #ffe600;
+    background:black;
+
+}
+
+
+.btn-black:hover,
+.btn-black:focus {
+    background:#ffe600;
+    color: black;
+
+}
+
+
+/* ------------------------------------------------- */
+
+
+/* section 3 - columns */
+
+.section-3 {
+    background:#f88417; 
+    border: 2px solid black ;
+    border-top: none;
+}
+
+.columns {
+   
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 90px;
+
+}
+
+.col {
+    padding: 15px;
+}
